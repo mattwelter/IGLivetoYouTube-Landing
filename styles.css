@@ -67,6 +67,9 @@ h1 {
 	.width {
 		width: 100%;
 	}
+	h1 {
+		letter-spacing: -0.06em;
+	}
 	#wrapper {
 		margin-top: 125px;
 	}
