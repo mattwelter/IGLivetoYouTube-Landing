@@ -21,7 +21,7 @@ h1 {
 	font-family: 'DM Sans Bold';
 	font-weight: normal;
 	font-size: 35px;
-	line-height: 46px;
+	line-height: 42px;
 	letter-spacing: -0.02em;
 	text-align: center;
 }
@@ -66,9 +66,6 @@ h1 {
 @media screen and (max-width: 425px) {
 	.width {
 		width: 100%;
-	}
-	h1 {
-		letter-spacing: -0.06em;
 	}
 	#wrapper {
 		margin-top: 125px;
