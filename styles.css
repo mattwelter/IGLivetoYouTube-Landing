@@ -63,7 +63,31 @@ h1 {
 	opacity: 0.6;
 }
 
+#howitworks {
+	background-color: #2b2f35;
+	color: white;
+	padding: 4px 16px 32px 16px;
+	border-radius: 4px;
+}
+
+#howitworks h3 {
+	font-family: 'DM Sans Regular';
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 42px;
+	letter-spacing: -0.02em;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+#howitworks iframe {
+	margin: 0 auto;
+}
+
 @media screen and (max-width: 425px) {
+	body {
+		margin: 0 auto;
+	}
 	.width {
 		width: 100%;
 	}
@@ -72,6 +96,10 @@ h1 {
 	}
 	#blurb {
 		font-size: 17px;
+	}
+	#howitworks {
+		padding: 4px 16px 32px 16px;
+		border-radius: 0px;
 	}
 }
 
